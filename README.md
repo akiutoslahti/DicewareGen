@@ -18,11 +18,17 @@ http://users.ics.aalto.fi/kaip/noppaware/
 # Usage
 
 To use DicewareGen you should clone the repository by:
+
 ```git clone git://github.com/akiutoslahti/DicewareGen.git```
+
 After changing to DicewareGen directory, you can create secure passphrases with command:
+
 ```java DicewareGen```
+
 To print help, which instructs of using arguments, use command:
+
 ```java DicewareGen help```
+
 Contents of help included also here:
 ```
 DicewareGen 1.0, wordlist based passphrase generator
