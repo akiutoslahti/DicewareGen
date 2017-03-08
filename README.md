@@ -6,14 +6,13 @@ Javas SecureRandom provides a cryptographically strong random number generator. 
 
 DicewareGen provides four distinctive wordlists for passphrase generation. Included are three English wordlists and one Finnish wordlist.
 
-English wordlists include:
-Original Diceware wordlist by Arnold Reinhold,
-Diceware wordlist 8k version by Arnold Reinhold and
-Diceware wordlist which "contains fewer Americanisms and obscure words" by Alan Beale
-http://world.std.com/~reinhold/diceware.html
+English wordlists include (http://world.std.com/~reinhold/diceware.html):
+* Original Diceware wordlist by Arnold Reinhold,
+* Diceware wordlist 8k version by Arnold Reinhold and
+* Diceware wordlist which "contains fewer Americanisms and obscure words" by Alan Beale 
 
-Finnish wordlist, also known as Noppaware, is a work of Kai Puolamäki.
-http://users.ics.aalto.fi/kaip/noppaware/
+Finnish wordlist (http://users.ics.aalto.fi/kaip/noppaware/):
+* Noppaware, by Kai Puolamäki. 
 
 # Usage
 
