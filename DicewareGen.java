@@ -60,6 +60,7 @@ public class DicewareGen {
         System.out.println(" java DicewareGen [wordlist]");
         System.out.println(" java DicewareGen [wordlist] [pp_length]");
         System.out.println(" java DicewareGen [wordlist] [pp_length] [pp_count]\n");
+        System.out.println("Arguments:");
         System.out.println(" wordlist,\tpossible wordlists:");
         System.out.println("\t\t  en -> Diceware wordlist, by Arnold Reinhold");
         System.out.println("\t\t  en_8k -> Diceware wordlist 8k, by Arnold Reinhold");
