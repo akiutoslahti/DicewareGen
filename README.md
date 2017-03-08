@@ -46,7 +46,7 @@ Arguments:
     pp_length,	passphrase length as wordcount
     pp_count,	number of passphrases to be generated
 
-    Default (no arguments):
+Default (no arguments):
     wordlist: en
     pp_length: 6
     pp_count: 10
