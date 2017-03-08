@@ -67,7 +67,7 @@ public class DicewareGen {
         System.out.println("\t\t  en_8k -> Diceware wordlist 8k, by Arnold Reinhold");
         System.out.println("\t\t  en_beale -> Diceware wordlist, edited by Alan Beale");
         System.out.println("\t\t  fi -> Finnish Diceware(Noppaware) wordlist, by Kai Puolamäki");
-        System.out.println("\t\t  en_dict -> Full Enlish dictionary");
+        System.out.println("\t\t  en_dict -> Full Enlish dictionary 1991");
         System.out.println(" pp_length,\tpassphrase length as wordcount");
         System.out.println(" pp_count,\tnumber of passphrases to be generated\n");
         System.out.println("Default (no arguments):");
