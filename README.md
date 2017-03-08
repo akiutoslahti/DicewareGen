@@ -1,7 +1,8 @@
 # DicewareGen
 
 DicewareGen is a secure passphrase generator utilizing Diceware wordlists (http://world.std.com/~reinhold/diceware.html).
-DicewareGen utilizes Javas SecureRandom class for choosing words from wordlist (https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html). 
+DicewareGen utilizes Javas SecureRandom class for choosing words from wordlist (https://docs.oracle.com/javase/8/docs/api/java/security/SecureRandom.html).
+
 Javas SecureRandom provides a cryptographically strong random number generator. In this application it uses /dev/urandom on Linux systems.
 
 DicewareGen provides four distinctive wordlists for passphrase generation. Included are three English wordlists and one Finnish wordlist.
