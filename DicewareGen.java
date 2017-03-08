@@ -14,7 +14,6 @@ public class DicewareGen {
     private static final String ENGLISH_8K = "wordlists/diceware8k.txt";
     private static final String ENGLISH_BEALE = "wordlists/diceware_beale.txt";
     private static final String FINNISH = "wordlists/noppaware.txt";
-    private static final String ENGLISH_DICT = "wordlists/english_dict.txt";
 
     public static void main(String[] args) {
         if (args.length == 0) {
@@ -67,7 +66,6 @@ public class DicewareGen {
         System.out.println("\t\t  en_8k -> Diceware wordlist 8k, by Arnold Reinhold");
         System.out.println("\t\t  en_beale -> Diceware wordlist, edited by Alan Beale");
         System.out.println("\t\t  fi -> Finnish Diceware(Noppaware) wordlist, by Kai Puolamäki");
-        System.out.println("\t\t  en_dict -> Full Enlish dictionary 1991");
         System.out.println(" pp_length,\tpassphrase length as wordcount");
         System.out.println(" pp_count,\tnumber of passphrases to be generated\n");
         System.out.println("Default (no arguments):");
@@ -111,8 +109,6 @@ public class DicewareGen {
             return ENGLISH_8K;
         } else if (lang.equals("en_beale")) {
             return ENGLISH_BEALE;
-        } else if (lang.equals("en_dict")) {
-            return ENGLISH_DICT;
         } else {
             System.out.println("Unknown wordlist.");
             System.out.println("Defaulting to English");

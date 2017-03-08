@@ -11,7 +11,6 @@ English wordlists include (http://world.std.com/~reinhold/diceware.html):
 * Original Diceware wordlist by Arnold Reinhold,
 * Diceware wordlist 8k version by Arnold Reinhold and
 * Diceware wordlist which "contains fewer Americanisms and obscure words" by Alan Beale
-* Full English dictionary from 1991 (http://www-01.sil.org/linguistics/wordlists/english/)
 
 Finnish wordlist (http://users.ics.aalto.fi/kaip/noppaware/):
 * Noppaware, by Kai Puolamäki. 
@@ -44,7 +43,6 @@ Arguments:
         en_8k -> Diceware wordlist 8k, by Arnold Reinhold
         en_beale -> Diceware wordlist, edited by Alan Beale
         fi -> Finnish Diceware(Noppaware) wordlist, by Kai Puolamäki
-        en_dict -> Full English dictionary 1991
     pp_length,	passphrase length as wordcount
     pp_count,	number of passphrases to be generated
 
