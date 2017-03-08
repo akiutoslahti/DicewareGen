@@ -51,3 +51,8 @@ Default (no arguments):
     pp_length: 6
     pp_count: 10
 ```
+
+# Other
+
+TrimWordlist.java is used for trimming Diceware numbers from diceware lists.
+To use it to trim diceware lists, you must edit static Strings SEPARATOR and WORDLIST, to correspond to separator used in wordlist and wordlists path.
