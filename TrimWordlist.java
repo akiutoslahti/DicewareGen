@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class TrimWordlist {
 
     private static final String SEPARATOR = "\t";
-    private static final String WORDLIST = "diceware.txt";
+    private static final String WORDLIST = "english_eff.txt";
     
     public static void main(String[] args) {
         List<String> wordlist = readList(WORDLIST); 

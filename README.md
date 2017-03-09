@@ -12,6 +12,9 @@ English wordlists include (http://world.std.com/~reinhold/diceware.html):
 * Diceware wordlist 8k version by Arnold Reinhold(CC-BY) and
 * Diceware wordlist which "contains fewer Americanisms and obscure words" by Alan Beale(CC-BY?)
 
+They also include (https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases):
+* Diceware wordlist which contains words easier to remember and spell, by EFF
+
 Finnish wordlist (http://users.ics.aalto.fi/kaip/noppaware/):
 * Noppaware, by Kai Puolamäki(GNU GPL) 
 
@@ -31,7 +34,7 @@ To print help, which instructs of using arguments, use command:
 
 Contents of help included also here:
 ```
-DicewareGen 1.0, wordlist based passphrase generator
+DicewareGen 1.1, wordlist based passphrase generator
 Usage:
     java DicewareGen [wordlist]
     java DicewareGen [wordlist] [pp_length]
@@ -42,6 +45,7 @@ Arguments:
         en -> Diceware wordlist, by Arnold Reinhold
         en_8k -> Diceware wordlist 8k, by Arnold Reinhold
         en_beale -> Diceware wordlist, edited by Alan Beale
+        en_eff -> Diceware wordlist, by EFF (2016)
         fi -> Finnish Diceware(Noppaware) wordlist, by Kai Puolamäki
     pp_length,	passphrase length as wordcount
     pp_count,	number of passphrases to be generated
